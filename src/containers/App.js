@@ -2,9 +2,9 @@
 import React from 'react'
 
 // Components
-import CuentaRegresiva from '../Components/CuentaRegresiva'
-import FooterSocial from '../Components/FooterSocial'
-import HeaderTitulo from '../Components/HeaderTitulo'
+import CuentaRegresiva from '../components/CuentaRegresiva'
+import FooterSocial from '../components/FooterSocial'
+import HeaderTitulo from '../components/HeaderTitulo'
 
 // Styles
 import {
@@ -16,7 +16,7 @@ function App() {
   return (
     <StyleContenedorTemporizado >
       <HeaderTitulo/>
-      <CuentaRegresiva conteoTiempo={1652983662000}/>
+      <CuentaRegresiva conteoTiempo={6238553600000}/>
       <FooterSocial/>
 
       <StyleFondoFooter
